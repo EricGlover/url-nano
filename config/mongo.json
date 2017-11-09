@@ -1,0 +1,13 @@
+{
+  "development": {
+    "database": "minify_development",
+    "host": "localhost"
+  },
+  "test": {
+    "database": "minify_test",
+    "host": "localhost"
+  },
+  "production": {
+    "use_env_variable": "MONGODB_URI"
+  }
+}
